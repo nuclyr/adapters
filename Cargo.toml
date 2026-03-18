@@ -1,0 +1,26 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/adapter-core",
+    "crates/adapter-aws",
+    "crates/adapter-gcp",
+    "crates/adapter-azure",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/nuclyr/adapters"
+rust-version = "1.85"
+
+[workspace.dependencies]
+nuclyr-adapter-core = { path = "crates/adapter-core" }
+async-trait = "0.1"
+tokio = { version = "1", features = ["full"] }
+thiserror = "2"
+bytes = "1"
+tracing = "0.1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+mockall = "0.13"

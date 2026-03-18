@@ -1,0 +1,14 @@
+[package]
+name = "nuclyr-adapter-azure"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+description = "Azure adapter for Nuclyr — stub for Phase 2"
+
+[dependencies]
+nuclyr-adapter-core.workspace = true
+async-trait.workspace = true
+bytes.workspace = true
+thiserror.workspace = true

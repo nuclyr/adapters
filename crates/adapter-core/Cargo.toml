@@ -1,0 +1,18 @@
+[package]
+name = "nuclyr-adapter-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+description = "Core trait definitions for Nuclyr cloud provider adapters"
+
+[dependencies]
+async-trait.workspace = true
+bytes.workspace = true
+thiserror.workspace = true
+serde.workspace = true
+tokio.workspace = true
+
+[dev-dependencies]
+mockall.workspace = true

@@ -1,0 +1,23 @@
+[package]
+name = "nuclyr-adapter-gcp"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+description = "GCP adapter for Nuclyr (Cloud Storage, Cloud Run, Pub/Sub)"
+
+[dependencies]
+nuclyr-adapter-core.workspace = true
+async-trait.workspace = true
+bytes.workspace = true
+thiserror.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+# GCP SDK crates will be added when implementing
+# google-cloud-storage = "0.x"
+
+[dev-dependencies]
+mockall.workspace = true

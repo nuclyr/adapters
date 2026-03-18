@@ -1,0 +1,25 @@
+[package]
+name = "nuclyr-adapter-aws"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+description = "AWS adapter for Nuclyr (S3, Lambda, SQS)"
+
+[dependencies]
+nuclyr-adapter-core.workspace = true
+async-trait.workspace = true
+bytes.workspace = true
+thiserror.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+aws-config = "1"
+aws-sdk-s3 = "1"
+aws-sdk-sts = "1"
+
+[dev-dependencies]
+mockall.workspace = true
+tokio = { workspace = true, features = ["test-util"] }
