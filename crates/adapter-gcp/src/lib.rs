@@ -1,4 +1,4 @@
-//! GCP adapter for Nuclyr — Cloud Storage, Cloud Run, Pub/Sub implementations.
+//! GCP adapter for Nuclyr - Cloud Storage, Cloud Run, Pub/Sub implementations.
 //!
 //! TODO: Implement after AWS adapter is validated.
 //! Will follow the same pattern as adapter-aws.

@@ -1,4 +1,4 @@
-//! AWS adapter for Nuclyr — S3, Lambda, SQS implementations.
+//! AWS adapter for Nuclyr - S3, Lambda, SQS implementations.
 
 pub mod auth;
 pub mod s3;

@@ -5,7 +5,7 @@ edition.workspace = true
 license.workspace = true
 repository.workspace = true
 rust-version.workspace = true
-description = "Azure adapter for Nuclyr — stub for Phase 2"
+description = "Azure adapter for Nuclyr - stub for Phase 2"
 
 [dependencies]
 nuclyr-adapter-core.workspace = true
